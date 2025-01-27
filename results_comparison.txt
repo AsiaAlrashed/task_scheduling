@@ -1,0 +1,202 @@
+Tasks(id, workload):
+0: 28	1: 2	2: 16	3: 27	4: 4	5: 9	6: 13	7: 19	8: 16	9: 9	10: 27	11: 5	12: 14	13: 26	14: 11	15: 21	16: 1	17: 16	18: 7	19: 14	20: 12	21: 17	22: 25	23: 19	24: 7	25: 14	26: 23	27: 6	28: 27	29: 2	
+VMs(id, capacity, current_load):
+0: 157 		1: 146 		2: 188 		3: 141 		
+ Alpha = 0.5 , Beta = 0.4 , Lam = 0.1 
+
+--------------------------------------------------
+Algorithm: HybridDragonflyPSO
+Solution: [3, 0, 0, 2, 1, 2, 2, 0, 3, 3, 1, 2, 1, 1, 0, 0, 0, 3, 3, 1, 2, 2, 0, 1, 3, 0, 3, 1, 2, 3]
+Fitness: 55.476285
+
+Task 0 assigned to VM 3 at time 0
+Task 1 assigned to VM 3 at time 0
+Task 2 assigned to VM 3 at time 0
+Task 3 assigned to VM 2 at time 0
+Task 4 assigned to VM 1 at time 0
+Task 5 assigned to VM 2 at time 0
+Task 6 assigned to VM 2 at time 0
+Task 7 assigned to VM 3 at time 0
+Task 8 assigned to VM 3 at time 0
+Task 9 assigned to VM 3 at time 0
+Task 10 assigned to VM 1 at time 0
+Task 11 assigned to VM 2 at time 0
+Task 12 assigned to VM 1 at time 0
+Task 13 assigned to VM 1 at time 0
+Task 14 assigned to VM 0 at time 0
+Task 15 assigned to VM 3 at time 0
+Task 16 assigned to VM 3 at time 0
+Task 17 assigned to VM 3 at time 0
+Task 18 assigned to VM 3 at time 0
+Task 19 assigned to VM 1 at time 0
+Task 20 assigned to VM 2 at time 0
+Task 21 assigned to VM 2 at time 0
+Task 22 assigned to VM 0 at time 0
+Task 23 assigned to VM 1 at time 0
+Task 24 assigned to VM 3 at time 0
+Task 25 assigned to VM 3 at time 0
+Task 26 assigned to VM 3 at time 0
+Task 27 assigned to VM 1 at time 0
+Task 28 assigned to VM 2 at time 0
+Task 29 assigned to VM 3 at time 0
+Task 16 completed on VM 3 at time 0.0070921985815602835
+Task 1 completed on VM 3 at time 0.014184397163120567
+Task 29 completed on VM 3 at time 0.014184397163120567
+Task 11 completed on VM 2 at time 0.026595744680851064
+Task 4 completed on VM 1 at time 0.0273972602739726
+Task 27 completed on VM 1 at time 0.0410958904109589
+Task 5 completed on VM 2 at time 0.047872340425531915
+Task 18 completed on VM 3 at time 0.04964539007092199
+Task 24 completed on VM 3 at time 0.04964539007092199
+Task 9 completed on VM 3 at time 0.06382978723404255
+Task 20 completed on VM 2 at time 0.06382978723404255
+Task 6 completed on VM 2 at time 0.06914893617021277
+Task 14 completed on VM 0 at time 0.07006369426751592
+Task 21 completed on VM 2 at time 0.09042553191489362
+Task 12 completed on VM 1 at time 0.0958904109589041
+Task 19 completed on VM 1 at time 0.0958904109589041
+Task 25 completed on VM 3 at time 0.09929078014184398
+Task 2 completed on VM 3 at time 0.11347517730496454
+Task 8 completed on VM 3 at time 0.11347517730496454
+Task 17 completed on VM 3 at time 0.11347517730496454
+Task 23 completed on VM 1 at time 0.13013698630136986
+Task 7 completed on VM 3 at time 0.1347517730496454
+Task 3 completed on VM 2 at time 0.14361702127659576
+Task 28 completed on VM 2 at time 0.14361702127659576
+Task 15 completed on VM 3 at time 0.14893617021276595
+Task 22 completed on VM 0 at time 0.1592356687898089
+Task 26 completed on VM 3 at time 0.16312056737588654
+Task 13 completed on VM 1 at time 0.1780821917808219
+Task 10 completed on VM 1 at time 0.18493150684931506
+Task 0 completed on VM 3 at time 0.19858156028368795
+--------------------------------------------------
+Algorithm: PSO
+Solution: [0, 0, 1, 1, 0, 3, 1, 2, 3, 0, 1, 2, 0, 0, 2, 3, 0, 0, 1, 2, 0, 3, 3, 2, 2, 1, 3, 1, 2, 1]
+Fitness: 57.826883
+
+Task 0 assigned to VM 0 at time 0
+Task 1 assigned to VM 0 at time 0
+Task 2 assigned to VM 1 at time 0
+Task 3 assigned to VM 1 at time 0
+Task 4 assigned to VM 3 at time 0
+Task 5 assigned to VM 3 at time 0
+Task 6 assigned to VM 1 at time 0
+Task 7 assigned to VM 2 at time 0
+Task 8 assigned to VM 3 at time 0
+Task 9 assigned to VM 0 at time 0
+Task 10 assigned to VM 1 at time 0
+Task 11 assigned to VM 2 at time 0
+Task 12 assigned to VM 3 at time 0
+Task 13 assigned to VM 3 at time 0
+Task 14 assigned to VM 2 at time 0
+Task 15 assigned to VM 3 at time 0
+Task 16 assigned to VM 0 at time 0
+Task 17 assigned to VM 0 at time 0
+Task 18 assigned to VM 1 at time 0
+Task 19 assigned to VM 2 at time 0
+Task 20 assigned to VM 0 at time 0
+Task 21 assigned to VM 3 at time 0
+Task 22 assigned to VM 3 at time 0
+Task 23 assigned to VM 2 at time 0
+Task 24 assigned to VM 2 at time 0
+Task 25 assigned to VM 1 at time 0
+Task 26 assigned to VM 3 at time 0
+Task 27 assigned to VM 1 at time 0
+Task 28 assigned to VM 2 at time 0
+Task 29 assigned to VM 1 at time 0
+Task 16 completed on VM 0 at time 0.006369426751592357
+Task 1 completed on VM 0 at time 0.012738853503184714
+Task 29 completed on VM 1 at time 0.0136986301369863
+Task 11 completed on VM 2 at time 0.026595744680851064
+Task 4 completed on VM 3 at time 0.028368794326241134
+Task 24 completed on VM 2 at time 0.03723404255319149
+Task 27 completed on VM 1 at time 0.0410958904109589
+Task 18 completed on VM 1 at time 0.04794520547945205
+Task 9 completed on VM 0 at time 0.05732484076433121
+Task 14 completed on VM 2 at time 0.05851063829787234
+Task 5 completed on VM 3 at time 0.06382978723404255
+Task 19 completed on VM 2 at time 0.07446808510638298
+Task 20 completed on VM 0 at time 0.07643312101910828
+Task 6 completed on VM 1 at time 0.08904109589041095
+Task 25 completed on VM 1 at time 0.0958904109589041
+Task 12 completed on VM 3 at time 0.09929078014184398
+Task 7 completed on VM 2 at time 0.10106382978723404
+Task 23 completed on VM 2 at time 0.10106382978723404
+Task 17 completed on VM 0 at time 0.10191082802547771
+Task 2 completed on VM 1 at time 0.1095890410958904
+Task 8 completed on VM 3 at time 0.11347517730496454
+Task 21 completed on VM 3 at time 0.12056737588652482
+Task 28 completed on VM 2 at time 0.14361702127659576
+Task 15 completed on VM 3 at time 0.14893617021276595
+Task 26 completed on VM 3 at time 0.16312056737588654
+Task 22 completed on VM 3 at time 0.1773049645390071
+Task 0 completed on VM 0 at time 0.17834394904458598
+Task 13 completed on VM 3 at time 0.18439716312056736
+Task 3 completed on VM 1 at time 0.18493150684931506
+Task 10 completed on VM 1 at time 0.18493150684931506
+--------------------------------------------------
+Algorithm: DO
+Solution: [0, 1, 2, 3, 2, 2, 1, 2, 3, 0, 1, 3, 1, 3, 0, 1, 3, 2, 0, 2, 2, 1, 3, 1, 0, 2, 0, 2, 0, 1]
+Fitness: 59.896288
+
+Task 0 assigned to VM 0 at time 0
+Task 1 assigned to VM 1 at time 0
+Task 2 assigned to VM 2 at time 0
+Task 3 assigned to VM 3 at time 0
+Task 4 assigned to VM 2 at time 0
+Task 5 assigned to VM 2 at time 0
+Task 6 assigned to VM 1 at time 0
+Task 7 assigned to VM 2 at time 0
+Task 8 assigned to VM 3 at time 0
+Task 9 assigned to VM 0 at time 0
+Task 10 assigned to VM 1 at time 0
+Task 11 assigned to VM 3 at time 0
+Task 12 assigned to VM 1 at time 0
+Task 13 assigned to VM 3 at time 0
+Task 14 assigned to VM 0 at time 0
+Task 15 assigned to VM 1 at time 0
+Task 16 assigned to VM 3 at time 0
+Task 17 assigned to VM 2 at time 0
+Task 18 assigned to VM 0 at time 0
+Task 19 assigned to VM 2 at time 0
+Task 20 assigned to VM 2 at time 0
+Task 21 assigned to VM 1 at time 0
+Task 22 assigned to VM 3 at time 0
+Task 23 assigned to VM 1 at time 0
+Task 24 assigned to VM 0 at time 0
+Task 25 assigned to VM 2 at time 0
+Task 26 assigned to VM 0 at time 0
+Task 27 assigned to VM 2 at time 0
+Task 28 assigned to VM 0 at time 0
+Task 29 assigned to VM 1 at time 0
+Task 16 completed on VM 3 at time 0.0070921985815602835
+Task 1 completed on VM 1 at time 0.0136986301369863
+Task 29 completed on VM 1 at time 0.0136986301369863
+Task 4 completed on VM 2 at time 0.02127659574468085
+Task 27 completed on VM 2 at time 0.031914893617021274
+Task 11 completed on VM 3 at time 0.03546099290780142
+Task 18 completed on VM 0 at time 0.044585987261146494
+Task 24 completed on VM 0 at time 0.044585987261146494
+Task 5 completed on VM 2 at time 0.047872340425531915
+Task 9 completed on VM 0 at time 0.05732484076433121
+Task 20 completed on VM 2 at time 0.06382978723404255
+Task 14 completed on VM 0 at time 0.07006369426751592
+Task 19 completed on VM 2 at time 0.07446808510638298
+Task 25 completed on VM 2 at time 0.07446808510638298
+Task 2 completed on VM 2 at time 0.0851063829787234
+Task 17 completed on VM 2 at time 0.0851063829787234
+Task 6 completed on VM 1 at time 0.08904109589041095
+Task 12 completed on VM 1 at time 0.0958904109589041
+Task 7 completed on VM 2 at time 0.10106382978723404
+Task 8 completed on VM 3 at time 0.11347517730496454
+Task 21 completed on VM 1 at time 0.11643835616438356
+Task 23 completed on VM 1 at time 0.13013698630136986
+Task 15 completed on VM 1 at time 0.14383561643835616
+Task 26 completed on VM 0 at time 0.1464968152866242
+Task 28 completed on VM 0 at time 0.17197452229299362
+Task 22 completed on VM 3 at time 0.1773049645390071
+Task 0 completed on VM 0 at time 0.17834394904458598
+Task 13 completed on VM 3 at time 0.18439716312056736
+Task 10 completed on VM 1 at time 0.18493150684931506
+Task 3 completed on VM 3 at time 0.19148936170212766
+--------------------------------------------------

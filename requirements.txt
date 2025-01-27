@@ -1,0 +1,3 @@
+simpy
+mealpy
+numpy=<1.26.4
